@@ -1,0 +1,71 @@
+;
+;
+; Created by Amber Atkins (@ambera-dev)
+;
+
+[bar/main]
+background = #1e1e1e
+foreground = #f8f8f2
+width = 40%
+height = 30
+radius = 0
+line-size = 0
+fixed-center = true
+offset-x = 1100
+offset-y = 5
+
+#system tray settings
+override-redirect = true
+tray-detatched = false
+tray-transparent = false
+tray-padding = 1
+
+padding-left = 1
+padding-right = 1
+
+module-margin = 1
+modules-left = workspaces
+modules-center =
+modules-right = eth date 
+font-0 = "Iosevka:fontformat=truetype:size=12;3"
+font-1 = "Iosevka Nerd Font:fontformat=truetype:size=12;3"
+
+[module/date]
+type = internal/date
+interval = 5
+date = "%a %d %b"
+time = %H:%M
+label =  %date%   %time%
+
+[module/workspaces]
+type = internal/xworkspaces
+enable-scroll = false
+format = <label-state>
+
+label-active = %index%
+label-active-padding = 1
+
+label-occupied = %index%
+label-occupied-padding = 1
+
+label-urgent = %index%
+label-urgent-foreground = #f1fa8c
+label-urgent-padding = 1
+
+label-empty = %index%
+label-empty-foreground = #44475a
+label-empty-padding = 1
+
+[module/eth]
+type = internal/network
+interface = enp0s3
+interval = 3.0
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+
+label-connected =   
+label-connected-foreground = #50fa7b
+ 
+label-disconnected =   
+label-disconnected-foreground = #ff5555
+

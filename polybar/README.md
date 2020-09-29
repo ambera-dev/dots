@@ -7,4 +7,8 @@ The fonts required for this bar are [Nanum Gothic](https://fonts.google.com/spec
 Default date module view (changes when clicked)  
 ![Glass Polybar Preview 2](previews/glassbar2.PNG?raw=true)  
 Arc-Dark & Breeze-Dark background colors  
-![Glass Polybar Alt Color Preview](previews/glassbar3.PNG?raw=true) 
+![Glass Polybar Alt Color Preview](previews/glassbar3.PNG?raw=true)  
+## Bitesize
+This is a minimal polybar with the Dracula color scheme. Fonts required are [Iosevka](https://github.com/be5invis/Iosevka) (Regular, TTF format) and [Iosevka Nerd](https://nerdfonts.com/font-downloads).  
+### Previews:  
+![Bitesize Polybar Preview](previews/bitesize1.PNG?raw=true)
