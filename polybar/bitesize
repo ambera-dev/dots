@@ -25,7 +25,7 @@ padding-right = 1
 
 module-margin = 1
 modules-left = workspaces
-modules-center =
+modules-center = xwindow
 modules-right = eth date 
 font-0 = "Iosevka:fontformat=truetype:size=12;3"
 font-1 = "Iosevka Nerd Font:fontformat=truetype:size=12;3"
@@ -44,6 +44,7 @@ format = <label-state>
 
 label-active = %index%
 label-active-padding = 1
+label-active-foreground = #bd93f9
 
 label-occupied = %index%
 label-occupied-padding = 1
@@ -69,3 +70,10 @@ label-connected-foreground = #50fa7b
 label-disconnected =   
 label-disconnected-foreground = #ff5555
 
+[module/xwindow]
+type = internal/xwindow
+format = <label>
+format-padding = 1
+label = %title%
+label-maxlen = 40
+label-empty = 
