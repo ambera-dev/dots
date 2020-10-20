@@ -9,6 +9,6 @@ Dotfiles I use for Kali Linux and NixOS.
 **Editor:** vim  
 
 ### Kali Linux:  
-![Kali Preview][polybar/previews/bitesizeFull.PNG?raw=true]
+![Kali Preview][polybar/previews/glassbar5-kali.PNG?raw=true]
 ### NixOS:
 ![Desktop Preview](polybar/previews/glassbar4_full-screen.PNG?raw=true)
