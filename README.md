@@ -5,7 +5,7 @@ Dotfiles I use for Kali Linux and NixOS.
 **Display Manager:** SDDM (Simple Desktop Display Manager)  
 **Window Manager:** i3-gaps + polybar    
 **Launcher:** Rofi  
-**Terminal:** st for Kali, Konsole for NixOS  
+**Terminal:** XFCE4 terminal for Kali, Konsole for NixOS  
 **Editor:** vim  
 
 ### Kali Linux:  
