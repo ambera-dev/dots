@@ -52,7 +52,7 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-
+   nixpkgs.config.allowUnfree = true;
    environment.systemPackages = with pkgs; [
 #Bare essentials
      killall
@@ -107,7 +107,7 @@
 
   # Enable the KDE Desktop Environment.
    services.xserver.displayManager.sddm.enable = true;
-   services.xserver.desktopManager.kde.enable = true;
+   services.xserver.desktopManager.plasma5.enable = true;
   # Use i3-gaps on top of KDE. Display manager defaults to i3+none but plasma5 can be used on its own.
    services.xserver.displayManager.defaultSession = "none+i3";
    services.xserver.windowManager.i3 = {
