@@ -8,4 +8,4 @@ Dotfiles I use for Kali Linux.
 **Editor:** vim  
 
 ### Preview:  
-![Kali Preview](polybar/previews/bitesize_kali.PNG?raw=true)
+![Kali Preview](polybar/previews/bitesize_kali.png?raw=true)
