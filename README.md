@@ -1,14 +1,11 @@
 # Dotfiles
-Dotfiles I use for Kali Linux and NixOS.  
- 
-**Desktop Manager:** XFCE for Kali, KDE Plasma for NixOS  
+Dotfiles I use for Kali Linux.  
+   
 **Display Manager:** SDDM (Simple Desktop Display Manager)  
-**Window Manager:** i3-gaps + polybar    
-**Launcher:** Rofi  
-**Terminal:** XFCE4 terminal for Kali, Konsole for NixOS  
+**Window Manager:** bspwm + polybar    
+**Launcher:** rofi  
+**Terminal:** rxvt-unicode
 **Editor:** vim  
 
-### Kali Linux:  
-![Kali Preview](polybar/previews/glassbar5-kali.PNG?raw=true)
-### NixOS:
-![Desktop Preview](polybar/previews/glassbar4_full-screen.PNG?raw=true)
+### Preview:  
+![Kali Preview](polybar/previews/bitesize_kali.PNG?raw=true)
