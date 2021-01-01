@@ -6,6 +6,7 @@ Dotfiles I use for Kali Linux.
 **Launcher:** rofi  
 **Terminal:** rxvt-unicode  
 **Editor:** vim  
+**Icon Theme:** Black Slate NUMIX Flat
 
 ### Preview:  
-![Kali Preview](polybar/previews/bitesize_kali.png?raw=true)
+![Kali Preview](polybar/previews/bitesize_kali.PNG?raw=true)
