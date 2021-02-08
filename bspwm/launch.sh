@@ -10,5 +10,6 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 #launch polybar
-polybar -c ~/.config/polybar/bitesize main &
-xfce4-clipman &
+polybar -c ~/.config/polybar/bitesize-extended main &
+compton --no-fading-openclose &
+
