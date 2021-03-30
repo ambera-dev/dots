@@ -25,7 +25,7 @@ padding-right = 1
 module-margin = 1
 modules-left = workspaces
 modules-center = xwindow
-modules-right = net date battery
+modules-right = net date battery power
 font-0 = "Iosevka:fontformat=truetype:size=11;3"
 font-1 = "Iosevka Nerd Font:fontformat=truetype:size=10;3"
 
@@ -98,4 +98,15 @@ label-connected = ﯱ
 label-connected-foreground = #50fa7b
 label-disconnected = 
 label-disconnected-foreground = #ff5555
-  
+
+[module/power]
+type = custom/menu
+expand-right = true
+menu-0-0 = Power Off
+menu-0-0-exec = poweroff
+menu-0-1 = Restart
+menu-0-1-exec = reboot
+
+label-open =﫼
+label-close = x
+label-separator = | 
